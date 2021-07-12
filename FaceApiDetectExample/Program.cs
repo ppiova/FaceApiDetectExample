@@ -14,7 +14,7 @@ namespace FaceApiDetectExample
 
 
         // URL for the images.
-        const string IMAGE_BASE_URL = "https://csdx.blob.core.windows.net/resources/Face/Images/";
+        const string IMAGE_BASE_URL = "https://github.com/ppiova/FaceApiDetectExample/tree/main/FaceApiDetectExample/images";
 
         static void Main(string[] args)
         {
@@ -41,13 +41,14 @@ namespace FaceApiDetectExample
             // Create a list of images
             List<string> imageFileNames = new List<string>
                             {
-                                "detection1.jpg",    // single female with glasses
-								// "detection2.jpg", // (optional: single man)
-								// "detection3.jpg", // (optional: single male construction worker)
-								// "detection4.jpg", // (optional: 3 people at cafe, 1 is blurred)
-								"detection5.jpg",    // family, woman child man
-								"detection6.jpg"     // elderly couple, male female
-							};
+                                "Bill-02.jpg",
+                                "Bill.jpg",
+                                "Familia-01.jpg",
+                                "PapaFrancisco.jpg",
+                                "men-facialhair.jpg,", 
+                                "ppiova-2020.jpg"
+
+                            };
 
             foreach (var imageFileName in imageFileNames)
             {
