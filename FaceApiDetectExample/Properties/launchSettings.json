@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "FaceApiDetectExample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "FACE_SUBSCRIPTION_KEY_HERE": "",
+        "FACE_ENDPOINT_HERE": "https://xamarinfaceapi.cognitiveservices.azure.com/"
+      }
+    }
+  }
+}
